@@ -47,12 +47,12 @@
         }
 
         input {
-            width: 278px;
-            height: 18px;
+            width: 300px;
+            height: 20px;
             margin-bottom: 10px;
             outline: none;
             padding: 10px;
-            font-size: 13px;
+            font-size: 15px;
             color: #fff;
             text-shadow: 1px 1px 1px;
             border-top: 1px solid #312E3D;
