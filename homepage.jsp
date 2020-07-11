@@ -1,17 +1,15 @@
 <%--
   Created by IntelliJ IDEA.
   User: 28016
-  Date: 2020/7/10
-  Time: 15:45
+  Date: 2020/7/11
+  Time: 12:52
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>欢迎来到注册页面</title>
-
-
-    <style>
+    <title>帅帅商店</title>
+   <style>
 
         body {
             width: 100%;
@@ -21,7 +19,7 @@
             background-color: #0e1e8b;
         }
 
-        #registered {
+        #login {
             position: absolute;
             top: 50%;
             left: 50%;
@@ -30,7 +28,7 @@
             height: 300px;
         }
 
-        #registered h1 {
+        #login h1 {
             color: #fff;
             text-shadow: 0 0 10px;
             letter-spacing: 1px;
@@ -72,21 +70,15 @@
     </style>
 
 <body>
-<div id="registered">
-    <h1>注册</h1>
-    <form  method="post">
-        <input type="text" required="required" placeholder="用户名" ></input>
-        <input type="password" required="required" placeholder="密码" ></input>
-        <input type="password" required="required" placeholder="确认密码" ></input>
-        <button class="but" type="submit">注册账户</button>
-        <button class="but" type="submit">重登录</button>
-        <p>
-            <a href="../index.jsp">点击此处返回首页</a><%--返回上一级目录--%>
-        </p>
+<div id="login">
+    <h1>帅帅商店</h1>
+
+        <hr>
+        <a href="register.jsp"><button class="but" type="submit">注册</button></a>
+        <a href="login.jsp"><button class="but" type="submit">登录</button></a>
     </form>
 </div>
 </body>
 </head>
 </html>
-
 
