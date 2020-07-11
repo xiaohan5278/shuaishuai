@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: 28016
-  Date: 2020/7/10
-  Time: 15:27
+  Date: 2020/7/11
+  Time: 13:05
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -13,24 +13,28 @@
     <title>购物车</title>
 </head>
 <style type="text/css">
-    h1{
+    h1 {
+        color: #fff;
+        text-shadow: 0 0 10px;
+        letter-spacing: 1px;
         text-align: center;
     }
     table{
         margin: 0 auto;
     }
-    body{
-        font-size: larger;color: crimson;
-        background-image: url(img/2.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0;
+        background-color: #0e1e8b;
     }
     table th,table td{
-
+color: #8b8118;
     }
 </style>
 <body >
-<h1>购物车byBXQ</h1>
+<h1>购物车</h1>
 <table border="1" >
     <tr>
         <!--文本th-->
@@ -82,7 +86,7 @@
         </td>
     </tr>
 </table>
-<h1> 结算【剁手吧】</h1>
+<h1> 结算</h1>
 <table border="1">
     <thead>
     <tr>
@@ -177,3 +181,4 @@
     }
 </script>
 </html>
+
