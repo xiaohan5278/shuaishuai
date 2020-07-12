@@ -81,12 +81,12 @@
 <h1>欢迎注册</h1>
 <center>
     <form action="login.jsp" method="post">
-
-            <input type="text" required="required" placeholder="用户名" ></input>
+       <input type="text" required="required" placeholder="用户名" ></input>
             <input type="password" required="required" placeholder="密码" ></input>
         <input type="password" required="required" placeholder="确认密码" ></input>
 
          <button class="but" type="submit">提交</button>
+
 
     </form>
 </center></div>

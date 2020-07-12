@@ -46,21 +46,21 @@ color: #8b8118;
         <th>操作</th>
     </tr>
     <tr>
-        <td>面膜</td>
-        <td  >150</td>
-        <td>白色</td>
+        <td>水杯</td>
+        <td  >50</td>
+        <td>黑色</td>
         <td>100</td>
-        <td>88%</td>
+        <td>100%</td>
         <td align="center">
             <input type="button" value="加入购物车" onclick="add_shoppingcar(this)"/>
         </td>
     </tr>
     <tr>
         <td>口红</td>
-        <td  >350</td>
-        <td>白色</td>
+        <td  >250</td>
+        <td>红色</td>
         <td>166</td>
-        <td>82%</td>
+        <td>100%</td>
         <td align="center">
             <input type="button" value="加入购物车" onclick="add_shoppingcar(this)"/>
         </td>
@@ -69,8 +69,8 @@ color: #8b8118;
         <td>鼠标</td>
         <td >150</td>
         <td>黑色</td>
-        <td>99</td>
-        <td>75%</td>
+        <td>59</td>
+        <td>100%</td>
         <td align="center">
             <input type="button" value="加入购物车" onclick="add_shoppingcar(this)"/>
         </td>
@@ -80,7 +80,7 @@ color: #8b8118;
         <td  >120</td>
         <td>黑色</td>
         <td>50</td>
-        <td>80%</td>
+        <td>100%</td>
         <td align="center">
             <input type="button" value="加入购物车" onclick="add_shoppingcar(this)"/>
         </td>

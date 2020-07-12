@@ -10,12 +10,6 @@
 <head>
     <title>帅帅商店</title>
     <style>
-       html {
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            font-style: normal;
-        }
 
         body {
             width: 100%;
@@ -41,10 +35,7 @@
             text-align: center;
         }
 
-        h1 {
-            font-size: 2em;
-            margin: 0.67em 0;
-        }
+
 
         input {
             width: 300px;
@@ -81,16 +72,17 @@
 <body>
 <div id="login">
     <h1>帅帅商店</h1>
-    <form method="post">
-        <input type="text" required="required" placeholder="用户名" name="u"></input>
-        <input type="password" required="required" placeholder="密码" name="p"></input>
-        <button class="but" type="submit">登录</button>
-        <button class="but" type="submit">注册</button>
+         <form action="shop.jsp" method="post">
+
+       <input type="text" required="required" placeholder="用户名" ></input>
+           <input type="password" required="required" placeholder="密码" ></input>
+             <button class="but" type="submit">登录</button>
     </form>
 </div>
 </body>
 </head>
 </html>
+
 
 
 
