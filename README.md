@@ -43,15 +43,14 @@
            <button class="but" type="submit">登录</button>
     </form>
 - 购物车页面的商品添加减少计算
-   
-   
     function add_shoppingcar(btn){
+    
         var tr=btn.parentNode.parentNode;
         var tds=tr.getElementsByTagName("td");
         var name=tds[0].innerHTML;
         var price=tds[1].innerHTML;
         var tbody=document.getElementById("goods");
-        var row=tbody.insertRow();//insertRow表格开头插入新行
+        var row=tbody.insertRow();
         row.innerHTML="<td>"+name+"</td>"+
             "<td>"+price+"</td>"+
             "<td align='center'>"+
@@ -66,37 +65,27 @@
             "</tr>"
         total();
     }
-    //增加减少数量，用n正负1来表示点击了加减按钮
     function change(btn,n){
-        //获取数量的三个input对象
+    
         var inputs = btn.parentNode.getElementsByTagName("input");
-        //获取原来的数量
-        var amount = parseInt(inputs[1].value);
-        //当amount=1时不能再点击"-"符号
-        //用n<0来表示点击了减button
+        var amount = parseInt(inputs[1].value)；
         if(amount<=1 && n<0){
             return;
         }
-        //根据加减来改变数量
+       
         inputs[1].value = amount + n;
-        //将改变后的数量值赋值给amount
         amount = inputs[1].value;
-        //获取表格中的行
         var tr = btn.parentNode.parentNode;
-        //获取所有的列
         var tds = tr.getElementsByTagName("td");
-        //获取单价
         var price = parseFloat(tds[1].innerHTML);
-        //总价=单价*数量
-        var m = price * amount;
-        //将总价赋值给相应的位置
+        var m = price * amount；   
         tds[3].innerHTML = m;
-        //调用total方法，求总计
         total();
     }
 
 
     function total(){
+    
         var tbody=document.getElementById("goods");
         var trs=tbody.getElementsByTagName("tr");
         var sum=0;
@@ -109,6 +98,7 @@
         total.innerHTML = sum;
     }
     function del(i){
+    
         var tr=i.parentNode.parentNode;
         tr.parentNode.removeChild(tr);
         //tr.remove(tr);
